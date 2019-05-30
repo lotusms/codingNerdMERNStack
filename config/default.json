@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://lotusms:2wsx@WSX@devconnector-yzhmy.mongodb.net/test?retryWrites=true"
+  "mongoURI": "mongodb+srv://lotusms:2wsx@WSX@devconnector-yzhmy.mongodb.net/test?retryWrites=true",
+  "jwtSecret": "mysecrettoken"
 }
