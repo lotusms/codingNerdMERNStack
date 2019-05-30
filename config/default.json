@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://lotusms:2wsx@WSX@devconnector-yzhmy.mongodb.net/test?retryWrites=true",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "fb90de848451efbd47cf",
+  "githubSecret": "2b1ad11892806d7dedfde7bf0e7d4cf120fc33f3"
 }
