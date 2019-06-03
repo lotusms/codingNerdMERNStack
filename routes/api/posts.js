@@ -205,8 +205,8 @@ router.post(
 
       const newComment = {
         text: req.body.text,
-        name: user.name,
-        avatar: user.avatar,
+        name: req.body.name,
+        avatar: req.body.avatar,
         user: req.user.id
       };
 
@@ -236,7 +236,7 @@ router.delete('/comment/:id/:comment_id', auth, async (req, res) => {
 
     //Make sure comment exits
     if (!comment) {
-      return res.status(404).json({ msg: 'COmment does not exitst' });
+      return res.status(404).json({ msg: 'Comment does not exitst' });
     }
 
     // Check user owns the comment
