@@ -34,10 +34,10 @@ const PostSchema = new Schema({
         type: String,
         required: true
       },
-      name: {
+      avatar: {
         type: String
       },
-      avatar: {
+      name: {
         type: String
       },
       date: {

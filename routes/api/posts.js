@@ -205,12 +205,12 @@ router.post(
 
       const newComment = {
         text: req.body.text,
-        name: req.body.name,
-        avatar: req.body.avatar,
+        name: user.name,
+        avatar: user.avatar,
         user: req.user.id
       };
 
-      post.comments.unshift(newComment);
+      post.comments.push(newComment);
 
       await post.save();
 
