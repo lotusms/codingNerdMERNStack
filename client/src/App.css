@@ -360,9 +360,13 @@ button {
   margin-bottom: 1rem;
 }
 
+.flex-grid {
+  display: flex;
+}
+
 /* Profile Page */
 .profile-grid {
-  display: grid;
+  /* display: grid; */
   grid-template-areas:
     'top top'
     'about about'
@@ -396,6 +400,7 @@ button {
 .profile-about {
   grid-area: about;
   text-align: center;
+  border-bottom: none;
 }
 
 .profile-about .skills {
@@ -407,10 +412,13 @@ button {
 
 .profile-exp {
   grid-area: exp;
+  width: 60%;
+  border-right: none;
 }
 
 .profile-edu {
   grid-area: edu;
+  width: 40%;
 }
 
 .profile-exp h2,
