@@ -15,13 +15,16 @@ Clone package using a clone tool such as Github, SourceTree, or your Command Lin
 	npm install
 
 Allow for npm top install, additonally, you may need to check your package.json and ensure all dependencies have installed or you could also run
+```
 	npm i --dev-only 
-
+```
 
 ## Running the app in your browser
 
 The app uses concurrently to run both, server and client side in port 5000 and 3000 respectively. Run the app with
+```
 	npm run dev 
+```
 
 ## Deployment
 
